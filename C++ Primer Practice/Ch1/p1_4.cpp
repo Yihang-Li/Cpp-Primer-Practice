@@ -1,18 +1,16 @@
 #include<iostream>
-
 int main()
 {
-    int sum = 0, val = 50, p10 = 10;
-    while (val <= 100){
+    int sum=0, val=50, p10 = 10;
+    while (val <= 100) {
         sum += val;
         ++val;
-        if (p10 > -1){
-            std::cout << p10 << std::endl;
+        if (p10 > -1) {
+            std::cout << p10 << std :: endl;
             --p10;
         }
     }
-    std::cout << "Sum of 50 to 100 inclusive is "
-              << sum << std::endl;
+    std::cout << "Sum of 50 to 100 inclusive is " << sum << std::endl;
 
     // std::cout << "Please input two numbers: (v1 <= v2) "<< std::endl;
     // int v1 = 0, v2 = 0;
